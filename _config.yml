@@ -17,8 +17,8 @@ favicon: favicon.ico
 
 repository: haozhengfeng/haozhengfeng.github.io
 github_url: https://github.com/haozhengfeng
-url: http://www.haozhengfeng.com
-enforce_ssl: haozhengfeng.com
+url: http://www.haozf.org
+enforce_ssl: haozf.org
 
 ## Gem
 plugins:
