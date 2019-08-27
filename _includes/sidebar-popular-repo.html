@@ -2,14 +2,14 @@
 <div class="card text-center">
     <ul class="list-inline" style="margin-left: 0;">
      <li>
-        <a target="_blank" href="https://github.com/ityouknow">
+        <a target="_blank" href="https://github.com/haozhengfeng">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
           </span>
         </a>
       </li>
-      <li>
+      <!--<li>
         <a target="_blank" href="https://www.zhihu.com/people/ityouknow">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
@@ -24,7 +24,7 @@
             <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-      </li>
+      </li>-->
   </ul>
 </div>
 
@@ -50,7 +50,7 @@
 {% endfor %}
 
 <br/>
-<h3 class="sidebar-title">开源软件</h3>
+<!--<h3 class="sidebar-title">开源软件</h3>
 {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse | where: "fork", "false" %}
 {% for repo in sorted_repos | limit: site.side_bar_repo_limit %}
 <div class="card text-center">
@@ -81,7 +81,7 @@
         </div>
     </div>
 </div>
-{% endfor %}
+{% endfor %}-->
 <script>
     $(document).ready(function(){
 
