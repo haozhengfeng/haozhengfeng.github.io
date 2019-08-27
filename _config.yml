@@ -67,14 +67,17 @@ menus:
 
 # Navigation. main menu list
 navs:
+  -
+    href: /
+    label: Home
 
   - href: /java.html
     label: Java
     target: _blank
+    subnav:
 
-  -
-    href: /
-    label: Home
+      - subHref: /java.html
+        subLabel: javase
 
   -
     href: /spring-boot.html
